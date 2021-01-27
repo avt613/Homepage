@@ -10,46 +10,73 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body>
+<body class="text-nowrap text-center">
     <div>
-        <div class="row">
-            <div class="col">
-                <h1>Homepage</h1>
-            </div>
-        </div>
+        <header>
+            <h1>Quick Links</h1>
+        </header>
         <div class="row justify-content-center">
             <div class="col-auto">
-                <ul class="list-unstyled">
-                    <li><button class="btn btn-outline-secondary disabled rounded-top" type="button" disabled="">General</button></li>
-                    <li><a class="btn btn-danger" role="button" href="https://mail.google.com/" target="_blank"><i class="fab fa-google"></i>&nbsp;<i class="fas fa-envelope"></i></a></li>
-                    <li><a class="btn btn-danger" role="button" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a class="btn btn-secondary" role="button" href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></li>
-                    <li><a class="btn btn-primary" role="button" href="https://t.me/itsfoss_official" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-                    <li><a class="btn btn-dark" role="button" href="https://hackclub.slack.com/" target="_blank"><i class="fab fa-slack"></i></a></li>
-                </ul>
+                <div class="row no-gutters">
+                    <div class="col"><button class="btn btn-outline-secondary disabled" type="button" disabled="">General</button></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-danger" role="button" href="https://mail.google.com/" target="_blank"><i class="fab fa-google"></i>&nbsp;<i class="fas fa-envelope"></i></a></li>
+                            <li><a class="btn btn-danger" role="button" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a class="btn btn-secondary" role="button" href="https://github.com/avt613" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a class="btn btn-primary" role="button" href="https://t.me/itsfoss_official" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                            <li><a class="btn btn-dark" role="button" href="https://hackclub.slack.com/" target="_blank"><i class="fab fa-slack"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="col-auto">
-                <ul class="list-unstyled">
-                    <li><button class="btn btn-outline-secondary disabled rounded-top" type="button" disabled="">Network</button></li>
-                    <li><a class="btn btn-primary router" role="button" href="http://192.168.1.254/" target="_blank"><i class="fas fa-wifi"></i>&nbsp;254</a></li>
-                    <li><a class="btn btn-success" role="button" href="http://192.168.1.38:8000" target="_blank"><i class="fab fa-raspberry-pi"></i>&nbsp;38:8000</a></li>
-                    <li><a class="btn btn-success" role="button" href="http://localhost:5000" target="_blank"><i class="far fa-eye"></i>&nbsp;23:5000</a></li>
-                    <li><a class="btn btn-success" role="button" href="http://localhost:8000" target="_blank"><i class="far fa-eye"></i>&nbsp;23:8000</a></li>
-                    <li><a class="btn btn-secondary" role="button" href="http://192.168.1.108:5000" target="_blank"><i class="far fa-eye"></i>&nbsp;108:5000</a></li>
-                    <li><a class="btn btn-primary" role="button" href="http://192.168.1.15:8000" target="_blank"><i class="far fa-eye"></i>&nbsp;15:8000</a></li>
-                    <li><a class="btn btn-primary jellyfin" role="button" href="http://192.168.1.15:8096" target="_blank"><i class="fas fa-photo-video"></i>&nbsp;15:8096</a></li>
-                </ul>
+                <div class="row no-gutters">
+                    <div class="col"><button class="btn btn-outline-secondary disabled" type="button" disabled="">Local Network</button></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-primary router" role="button" href="http://192.168.1.254/" target="_blank"><i class="fas fa-wifi"></i>&nbsp;254</a></li>
+                            <li><a class="btn btn-primary jellyfin" role="button" href="http://192.168.1.15:8096" target="_blank"><i class="fas fa-photo-video"></i>&nbsp;15:8096</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-success" role="button" href="http://localhost:5000" target="_blank"><i class="far fa-eye"></i>&nbsp;23:5000</a></li>
+                            <li><a class="btn btn-success" role="button" href="http://localhost:8000" target="_blank"><i class="far fa-eye"></i>&nbsp;23:8000</a></li>
+                            <li><a class="btn btn-secondary" role="button" href="http://192.168.1.108:5000" target="_blank"><i class="far fa-eye"></i>&nbsp;108:5000</a></li>
+                            <li><a class="btn btn-primary" role="button" href="http://192.168.1.15:8000" target="_blank"><i class="far fa-eye"></i>&nbsp;15:8000</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="col-auto">
-                <ul class="list-unstyled">
-                    <li><button class="btn btn-outline-secondary disabled rounded-top" type="button" disabled="">School</button></li>
-                    <li><a class="btn btn-primary" role="button" href="https://outlook.office365.com/mail/inbox" target="_blank"><i class="fab fa-microsoft"></i>&nbsp;&nbsp;<i class="fas fa-envelope"></i></a></li>
-                    <li><a class="btn btn-primary teams" role="button" href="https://teams.microsoft.com/" target="_blank"><i class="fab fa-microsoft"></i>&nbsp;<i class="fas fa-user-friends"></i></a></li>
-                    <li><a class="btn btn-primary outlook" role="button" href="https://www.office.com/launch/onenote" target="_blank"><i class="fab fa-microsoft"></i>&nbsp;&nbsp;<i class="far fa-sticky-note"></i></a></li>
-                    <li><a class="btn btn-info" role="button" href="https://app.mystudylife.com/calendar" target="_blank"><i class="fas fa-user-graduate"></i></a></li>
-                    <li><a class="btn btn-primary edulink" role="button" href="https://www.edulinkone.com/#!/" target="_blank"><img src="assets/img/edulink.jpg"></a></li>
-                    <li><a class="btn btn-secondary" role="button" href="https://resources.collins.co.uk/files/217767_Turning_Points.pdf" target="_blank">PHY&nbsp;<i class="fas fa-book"></i></a></li>
-                </ul>
+                <div class="row no-gutters">
+                    <div class="col"><button class="btn btn-outline-secondary disabled" type="button" disabled="">School</button></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-primary" role="button" href="https://outlook.office365.com/mail/inbox" target="_blank"><i class="fab fa-microsoft"></i>&nbsp;&nbsp;<i class="fas fa-envelope"></i></a></li>
+                            <li><a class="btn btn-primary teams" role="button" href="https://teams.microsoft.com/" target="_blank"><i class="fab fa-microsoft"></i>&nbsp;<i class="fas fa-user-friends"></i></a></li>
+                            <li><a class="btn btn-primary outlook" role="button" href="https://www.office.com/launch/onenote" target="_blank"><i class="fab fa-microsoft"></i>&nbsp;&nbsp;<i class="far fa-sticky-note"></i></a></li>
+                            <li><a class="btn btn-info" role="button" href="https://app.mystudylife.com/calendar" target="_blank"><i class="fas fa-user-graduate"></i></a></li>
+                            <li><a class="btn btn-primary edulink" role="button" href="https://www.edulinkone.com/#!/" target="_blank"><img src="assets/img/edulink.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-secondary" role="button" href="https://resources.collins.co.uk/files/217767_Turning_Points.pdf" target="_blank"><i class="fas fa-book"></i>&nbsp;PHY</a></li>
+                            <li><a class="btn btn-danger" role="button" href="https://www.ocr.org.uk/Images/308769-as-and-a-level-further-mathematics-b-mei-formulae-booklet.pdf" target="_blank"><i class="fas fa-book-medical"></i>&nbsp;MEI</a></li>
+                            <li><a class="btn btn-warning" role="button" href="https://www.integral-calculator.com/" target="_blank"><i class="fas fa-calculator"></i>&nbsp;∫</a></li>
+                            <li><a class="btn btn-warning" role="button" href="https://www.derivative-calculator.net/" target="_blank"><i class="fas fa-calculator"></i>d/dx</a></li>
+                            <li><a class="btn btn-primary" role="button" href="https://my.dynamic-learning.co.uk/" target="_blank"><i class="fas fa-book-open"></i>&nbsp;DL</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
